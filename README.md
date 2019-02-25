@@ -8,7 +8,7 @@ To use it, install [fiser](https://github.com/jorgebucaran/fisher) and type the 
 fisher add specter119/fish-plugin-homebrew
 ```
 
-This plugin has remove the pyenv shims from `$PATH` of brew to get a proper out put of `brew doctor`
+This plugin has remove the pyenv shims from `$PATH` of brew command, in order to get a proper out put of `brew doctor`
 
 ## Aliases
 

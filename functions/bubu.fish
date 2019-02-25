@@ -1,3 +1,3 @@
-function bubu -d "Update and upgrade homebrew and cleanup"
-  bubo && bubc
+function bubu --description 'Update and upgrade homebrew and cleanup'
+  bubo && bubc;
 end

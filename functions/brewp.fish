@@ -1,3 +1,3 @@
-function brewp -d "Pin a specified formula"
-  brew pin $argv
+function brewp --description 'Pin a specified formula'
+  brew pin $argv;
 end

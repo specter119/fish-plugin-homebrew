@@ -1,3 +1,3 @@
-function bubo -d "Update homebrew and show outdated formula and cask"
-  brew update && brew outdated && brew cask outdated
+function bubo --description 'Update homebrew and show outdated formula and cask'
+  brew update && brew outdated && brew cask outdated;
 end
