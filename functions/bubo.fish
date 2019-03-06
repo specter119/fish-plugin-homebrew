@@ -1,3 +1,7 @@
 function bubo --description 'Update homebrew and show outdated formula and cask'
-  brew update && brew outdated && brew cask outdated
+  switch (uname)
+  case Darwin
+    brew update && brew outdated && brew cask outdated
+  case Linux
+    brew update && brew outdated
 end
