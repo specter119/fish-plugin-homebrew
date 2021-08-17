@@ -12,11 +12,14 @@ This plugin has remove the pyenv shims from `$PATH` of brew command, in order to
 
 ## Aliases
 
-| Alias  | Command              | Description   |
-|:-------|:---------------------|---------------|
-| brewp  | `brew pin`           | Pin a specified formula, preventing them from being upgraded when issuing the brew upgrade <formula> command. |
-| brews  | `brew list -1`       | List installed formula, one entry per line, or the installed files for a given formula. |
-| brewsp | `brew list --pinned` | Show the versions of pinned formula, or only the specified (pinned) formula if formula are given. |
-| bubo   | `brew update && brew outdated` | Fetch the newest version of Homebrew and all formula, then list outdated formula. |
-| bubc   | `brew upgrade && brew cleanup` | Upgrade outdated, unpinned brews (with existing install options), then removes stale lock files and outdated downloads for formula and casks, and removes old versions of installed formula. |
-| bubu   | `bubo && bubc`       | Updates Homebrew, lists outdated formula, upgrades oudated and unpinned formula, and removes stale and outdated downloads and versions. |
+| Alias    | Command                               | Description                                                         |
+| -------- | ------------------------------------- | ------------------------------------------------------------------- |
+| `brewp`  | `brew pin`                            | Pin a specified formula so that it's not upgraded.                  |
+| `brews`  | `brew list -1`                        | List installed formulae or the installed files for a given formula. |
+| `brewsp` | `brew list --pinned`                  | List pinned formulae, or show the version of a given formula.       |
+| `bubo`   | `brew update && brew outdated`        | Update Homebrew data, then list outdated formulae and casks.        |
+| `bubc`   | `brew upgrade && brew cleanup`        | Upgrade outdated formulae and casks, then run cleanup.              |
+| `bubu`   | `bubo && bubc`                        | Do the last two operations above.                                   |
+| `buf`    | `brew upgrade --formula`              | Upgrade only formulas (not casks).                                  |
+| `bcubo`  | `brew update && brew outdated --cask` | Update Homebrew data, then list outdated casks.                     |
+| `bcubc`  | `brew upgrade --cask && brew cleanup` | Update outdated casks, then run cleanup.                            |
