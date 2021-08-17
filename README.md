@@ -4,7 +4,7 @@ The plugin adds several aliases for common [brew](https://brew.sh) commands.
 
 To use it, install [fiser](https://github.com/jorgebucaran/fisher) and type the follow command below:
 
-```shell:
+```shell
 fisher add specter119/fish-plugin-homebrew
 ```
 
