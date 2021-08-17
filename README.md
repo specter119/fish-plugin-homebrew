@@ -8,6 +8,12 @@ To use it, install [fiser](https://github.com/jorgebucaran/fisher) and type the 
 fisher add specter119/fish-plugin-homebrew
 ```
 
+Or install [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) and type the follow command below:
+
+```shell
+omf install https://github.com/specter119/fish-plugin-homebrew
+```
+
 This plugin has remove the pyenv shims from `$PATH` of brew command, in order to get a proper out put of `brew doctor`
 
 ## Aliases
