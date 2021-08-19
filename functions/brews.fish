@@ -1,3 +1,3 @@
-function brews --description 'List installed formula or files of formula'
+function brews --description 'List installed formulae or the installed files for a given formula'
   brew list $argv
 end
