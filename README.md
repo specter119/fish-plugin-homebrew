@@ -2,10 +2,10 @@
 
 The plugin adds several aliases for common [brew](https://brew.sh) commands.
 
-To use it, install [fiser](https://github.com/jorgebucaran/fisher) and type the follow command below:
+To use it, install [fisher](https://github.com/jorgebucaran/fisher) and type the follow command below:
 
 ```shell
-fisher add specter119/fish-plugin-homebrew
+fisher install specter119/fish-plugin-homebrew
 ```
 
 Or install [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) and type the follow command below:
